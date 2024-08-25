@@ -6,6 +6,10 @@ Welcome to the **IVV Stock Data Analysis** project! This project focuses on anal
 
 The goal of this project is to perform an in-depth analysis of the IVV stock to understand its behavior over time, identify trends, and provide forecasts for future performance using two different tools: **MS Excel**, **Python**, **Power-Bi**.
 
+### 📊 Data Source:
+- The data used in this analysis was sourced from **Yahoo Finance**. The dataset includes historical stock prices, volumes, and other relevant financial metrics for the IVV ETF from August 2023 to August 2024.
+
+
 ---
 
 ## 📊 MS Excel Analysis
