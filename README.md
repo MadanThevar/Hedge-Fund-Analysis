@@ -22,10 +22,11 @@ The goal of this project is to perform an in-depth analysis of the IVV stock to 
 - **Visualizations:** Charts created to visualize trends, volume, and price movements.
 
 ### Functions Used:
-- **XLOOKUP:** Used to search for values in a specified range and return corresponding data from another range.
-- **INDEX:** Used to retrieve the value of a cell at a specified row and column within a table or range.
-- **VLOOKUP:** Used to search for values in a vertical column and retrieve data from other columns in the same row.
+- **XLOOKUP:** Was used to efficiently search for and retrieve specific values from a dataset based on a corresponding lookup value. It's particularly useful when working with large datasets where you need to find data points like adjusted close prices or specific dates.
+- **INDEX:** function was used to return the value of a cell in a specified row and column within a range. This function is ideal for extracting data from a table or array when the row and column numbers are known, providing flexibility in more complex data manipulations.
 - **Summary Statistics:** Calculated key statistical measures to provide insights into the distribution and central tendency of the data.
+  Output: 
+<img width="908" alt="Screenshot 2024-08-26 at 17 07 26" src="https://github.com/user-attachments/assets/a0e2e775-7c2e-457d-9aa6-12e4cf9c8aab">
 
 ### Visualizations in Excel:
 1. **30-Day Forward Trend Analysis of Close Prices**: 
@@ -34,23 +35,23 @@ The goal of this project is to perform an in-depth analysis of the IVV stock to 
 
 
 2. **Volume vs Closing Price (Aug 2023 - Aug 2024)**
-   
-   -**Insight**: 
-3. **Moving Averages Comparison**  
-   ![Excel Moving Averages](link-to-excel-moving-averages-image)
 
-   *Description*: A line chart showing the comparison of different moving averages (e.g., 20-day and 50-day moving averages) to identify trends.
+   **Insight**: The Closing Price shows a general upward trend over the period, with some fluctuations, indicating periods of both growth and correction in the stock price.
+The Volume has several spikes, particularly noticeable around March 2024 and July 2024. These spikes could indicate higher trading activity during these periods, possibly due to significant market events or earnings announcements that drove investor interest.
+- <img width="571" alt="Screenshot 2024-08-26 at 17 00 01" src="https://github.com/user-attachments/assets/58914a0d-e100-4fe4-8206-c3acefe369f9">
 
-4. **Price Volatility Analysis**  
-   ![Excel Price Volatility](link-to-excel-volatility-image)
 
-   *Description*: A chart analyzing the volatility of the stock prices, potentially including measures such as standard deviation.
+3. **5-Day Moving Averages**  
+   - **Insight**: The 5-Day Moving Average chart shows a steady upward trend over time, indicating consistent growth in stock prices with minimal short-term volatility.
+
+- <img width="720" alt="Screenshot 2024-08-26 at 17 05 34" src="https://github.com/user-attachments/assets/a2dbfd5e-9158-4007-a70d-2d6de3dd9c5e">
+
 
 5. **Pareto Chart: Distribution of Adjusted Close Prices with Cumulative %**
    
    <img width="651" alt="Screenshot 2024-08-25 at 15 37 59" src="https://github.com/user-attachments/assets/2d14b9bc-b4f0-43f7-8cdb-098635c6360b">
 
-   *Insight*: A Pareto chart showing the distribution of Adjusted Close Prices in different ranges, along with the cumulative percentage. This chart helps in understanding the distribution and identifying the most common price ranges.
+   **Insight**: A Pareto chart showing the distribution of Adjusted Close Prices in different ranges, along with the cumulative percentage. This chart helps in understanding the distribution and identifying the most common price ranges.
 
 ### Excel Files:
 - `IVV(AutoRecovered).xlsx`: Contains all the raw data, calculations, and visualizations.
