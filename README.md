@@ -33,11 +33,9 @@ The goal of this project is to perform an in-depth analysis of the IVV stock to 
    - <img width="528" alt="Screenshot 2024-08-25 at 15 55 34" src="https://github.com/user-attachments/assets/05f496df-c0af-45a4-9a18-294b9cc89f3e">
 
 
-2. **Volume Over Time (Aug 2023 - Aug 2024)**  
-   ![Excel Volume](link-to-excel-volume-image)
-
-   *Description*: A bar chart depicting the trading volume over the same period, helping to identify periods of high and low trading activity.
-
+2. **Volume vs Closing Price (Aug 2023 - Aug 2024)**
+   
+   -**Insight**: 
 3. **Moving Averages Comparison**  
    ![Excel Moving Averages](link-to-excel-moving-averages-image)
 
