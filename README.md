@@ -28,10 +28,10 @@ The goal of this project is to perform an in-depth analysis of the IVV stock to 
 - **Summary Statistics:** Calculated key statistical measures to provide insights into the distribution and central tendency of the data.
 
 ### Visualizations in Excel:
-1. **Stock Prices Over Time (Aug 2023 - Aug 2024)**  
-   ![Excel Stock Prices](link-to-excel-stock-prices-image)
+1. **30-Day Forward Trend Analysis of Close Prices**: 
+   - **Insight**: The analysis reveals a consistent upward trend in the stock's closing prices, with an R-squared value of 0.9058, indicating strong momentum and suggesting continued growth in the near future.
+   - <img width="528" alt="Screenshot 2024-08-25 at 15 55 34" src="https://github.com/user-attachments/assets/05f496df-c0af-45a4-9a18-294b9cc89f3e">
 
-   *Description*: A line chart showing the Open, High, Low, and Close prices over the period from August 2023 to August 2024.
 
 2. **Volume Over Time (Aug 2023 - Aug 2024)**  
    ![Excel Volume](link-to-excel-volume-image)
@@ -47,6 +47,12 @@ The goal of this project is to perform an in-depth analysis of the IVV stock to 
    ![Excel Price Volatility](link-to-excel-volatility-image)
 
    *Description*: A chart analyzing the volatility of the stock prices, potentially including measures such as standard deviation.
+
+5. **Pareto Chart: Distribution of Adjusted Close Prices with Cumulative %**
+   
+   <img width="651" alt="Screenshot 2024-08-25 at 15 37 59" src="https://github.com/user-attachments/assets/2d14b9bc-b4f0-43f7-8cdb-098635c6360b">
+
+   *Insight*: A Pareto chart showing the distribution of Adjusted Close Prices in different ranges, along with the cumulative percentage. This chart helps in understanding the distribution and identifying the most common price ranges.
 
 ### Excel Files:
 - `IVV(AutoRecovered).xlsx`: Contains all the raw data, calculations, and visualizations.
