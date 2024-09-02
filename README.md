@@ -64,9 +64,11 @@ This section focuses on the data analysis conducted using Python, leveraging the
 
 ### Key Visualizations 📊
 
-1. **30-Day Forward Trend Analysis of Close Prices**:
+1. **Stock Prices vs Volume Over Time**:
    - This graph shows a clear upward trend in the stock's closing prices, with a strong linear relationship (R² = 0.9058), indicating consistent growth over time.
-   - **Key Insight**: The 30-day forward trend analysis indicates that the stock price is expected to continue its upward trajectory, making it an attractive option for long-term investors.
+   - **Key Insight**: The graph shows a significant spike in trading volume around May 2024, which coincides with a noticeable drop in stock prices. This pattern typically indicates increased selling pressure, possibly triggered by impactful news or market events.
+     <img width="1272" alt="Screenshot 2024-09-02 at 16 58 32" src="https://github.com/user-attachments/assets/fea791bb-79de-43d1-9918-e33bf654f66c">
+
 
 2. **Volume vs. Closing Price**:
    - This chart compares the daily closing prices against the trading volume.
