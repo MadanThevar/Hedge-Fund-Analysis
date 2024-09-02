@@ -70,13 +70,17 @@ This section focuses on the data analysis conducted using Python, leveraging the
      <img width="1272" alt="Screenshot 2024-09-02 at 16 58 32" src="https://github.com/user-attachments/assets/fea791bb-79de-43d1-9918-e33bf654f66c">
 
 
-2. **Volume vs. Closing Price**:
-   - This chart compares the daily closing prices against the trading volume.
-   - **Key Insight**: While the closing price gradually increases, there are spikes in volume that could indicate significant buying or selling activities on specific days, possibly driven by market events or investor sentiment.
+2. **Close Price with 10-Day and 50-Day Moving Averages**:
+   - **Key Insight**: This graph displays the stock's daily closing prices, overlaid with its 10-day and 50-day moving averages. The 10-day MA reacts quickly to price changes, useful for spotting short-term trends, while the 50-day MA helps identify longer-term market directions. Crossings of these MAs by the closing price often signal potential trend reversals.
+   - The point where the close price dips below both the 10-day and 50-day moving averages, around May 2024, indicates a potential bearish trend reversal. This could be a signal for traders and investors to reassess their positions as the market might be moving into a downtrend phase, suggesting a strategic decision point regarding holdings in this stock.
+  <img width="1099" alt="Screenshot 2024-09-02 at 17 12 47" src="https://github.com/user-attachments/assets/c41e3739-bcaa-4d01-8b04-0c089e096cf7">
 
-3. **5-Day Moving Average**:
-   - This graph plots the 5-day moving average of the stock's closing prices, smoothing out short-term fluctuations to reveal longer-term trends.
-   - **Key Insight**: The 5-day moving average shows a steady increase over time, with minor fluctuations, indicating a consistent upward momentum in the stock price.
+
+3. **Daily Return vs 10-Day Volatility**:
+   - **Key Insight**: The scatter plot displaying Daily Return vs. 10-Day Volatility shows a dispersed pattern with no clear correlation between daily returns and short-term volatility. This indicates that higher volatility does not consistently lead to higher or more positive returns, suggesting that risk management strategies should be nuanced and consider additional factors beyond just volatility.
+
+     <img width="650" alt="Screenshot 2024-09-02 at 17 20 49" src="https://github.com/user-attachments/assets/f5eae525-074f-435a-a7bc-a8f1c41274a3">
+
 
 ### Machine Learning Models 🤖
 
