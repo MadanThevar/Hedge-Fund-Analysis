@@ -126,6 +126,40 @@ Below is the graph showing both the historical and forecasted stock closing pric
 
 This graph not only aids in visualizing past performance but also in projecting future trends, which are pivotal for strategic planning and decision-making by investors and financial analysts.
 
+## 💬 Sentiment Analysis
+
+### Overview
+
+Sentiment analysis plays a crucial role in our project, providing insights into the market sentiment surrounding the IVV (iShares Core S&P 500 ETF) stock. We utilize TextBlob, a powerful natural language processing (NLP) tool, to analyze sentiments expressed in financial news articles. This helps gauge public sentiment, which can significantly influence stock prices.
+
+### Sentiment Analysis Details
+
+- **Tool Used**: TextBlob
+- **Data Source**: Financial news articles, primarily sourced from Yahoo Finance.
+- **Key Metrics**:
+  - **Sentiment Polarity**: Indicates the positivity or negativity of the sentiment. Values above 0 suggest positive sentiment, below 0 indicate negative.
+  - **Sentiment Subjectivity**: Measures the amount of personal opinion vs. factual information; values closer to 1 indicate high subjectivity.
+
+### Example Analysis
+
+A recent analysis was performed on an article discussing the iShares Core S&P 500 ETF (IVV):
+
+- **Article Excerpt**: "The iShares Core S&P 500 ETF (IVV) is designed to track the performance of the S&P 500 Index, which includes 500 of the ETF provides investors with broad exposure to the U.S. equity market, reflecting the performance of a broad cross-section of industries."
+- **Sentiment Polarity**: 0.18 (Slightly Positive)
+- **Sentiment Subjectivity**: 0.46 (Moderately Subjective)
+
+
+
+
+
+### Interpretation 📈
+
+- **Insight**: The analysis reveals a slightly positive sentiment, suggesting a generally favorable view of the IVV ETF among financial commentators. This positive sentiment can lead to increased investor confidence and potentially enhance the ETF's market performance.
+- **Impact on Stock Performance**: Positive market sentiment typically correlates with increased buying activity, which can drive up stock prices. Conversely, negative sentiment can lead to selling pressure and a decrease in stock prices.
+
+This sentiment analysis provides a valuable perspective on how emotional and subjective factors can affect financial markets, complementing traditional financial metrics and enhancing our understanding of market dynamics.
+
+
 ### Functions & Libraries Utilized 🔧
 
 - **Pandas**: For data manipulation and cleaning.
