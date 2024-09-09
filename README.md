@@ -80,14 +80,51 @@ This section focuses on the data analysis conducted using Python, leveraging the
    - **Key Insight**: The scatter plot displaying Daily Return vs. 10-Day Volatility shows a dispersed pattern with no clear correlation between daily returns and short-term volatility. This indicates that higher volatility does not consistently lead to higher or more positive returns, suggesting that risk management strategies should be nuanced and consider additional factors beyond just volatility.
 
      <img width="650" alt="Screenshot 2024-09-02 at 17 20 49" src="https://github.com/user-attachments/assets/f5eae525-074f-435a-a7bc-a8f1c41274a3">
+ 
+## 📈 Machine Learning Models and Insights 🤖
+
+### Model Performance 📉
+
+- **Logistic Regression** 📊:
+  - **Accuracy Score**: 58.54%
+  - **Insight**: Best for binary outcome predictions, this model's moderate accuracy suggests potential limitations with continuous stock price data.
+
+- **Random Forest** 🌳:
+  - **Accuracy Score**: 48.78%
+  - **Insight**: Excellent for handling diverse datasets and preventing overfitting, albeit with modest accuracy in this instance.
+
+- **Support Vector Machine (SVM)** 💡:
+  - **Accuracy Score**: 63.41%
+  - **Insight**: With the highest accuracy, SVM excels in classifying complex, non-linear data patterns.
+
+- **Gradient Boosting** ⚡:
+  - **Accuracy Score**: 46.34%
+  - **Insight**: Although less accurate, it progressively improves predictions by learning from past mistakes.
+
+## 🕒 ARIMA Model Analysis
+
+### Overview
+
+The **ARIMA (Autoregressive Integrated Moving Average)** model is a cornerstone in our analysis to forecast the future prices of the IVV (iShares Core S&P 500 ETF). It's specifically chosen for its efficacy in handling time series data, which is essential for understanding trends and cyclic behaviors in financial markets.
+
+### Model Insight 🧠
+
+- **Insight**: By meticulously analyzing the temporal dependencies and seasonal patterns in historical stock prices, the ARIMA model offers predictions with a significant degree of accuracy. It's particularly adept at understanding subtle shifts in market dynamics, which can be crucial for predicting stock movements during volatile periods.
+
+### Graph Representation 📊
+
+Below is the graph showing both the historical and forecasted stock closing prices as modeled by ARIMA:
+
+<img width="663" alt="Screenshot 2024-09-09 at 15 52 30" src="https://github.com/user-attachments/assets/a6ac7072-5118-4152-95cb-2e496622864f">
 
 
-### Machine Learning Models 🤖
+- **Graph Description**: This graph provides a clear visualization of the historical closing prices from September 2023 through September 2024. Key features of the graph include:
+  - **Trend Analysis**: The overall upward trend in the graph indicates a general increase in the stock price over time, with notable dips which could represent market corrections or external economic impacts.
+  - **Forecasted Data**: The forecasted prices, extending from the last historical point, suggest a continuation of the upward trend but with potential fluctuations that could imply upcoming market volatility.
+  - **Data Points**: Each point on the graph represents a daily closing price, providing a granular view of the stock's performance over the period.
+  - **Visual Differentiation**: The historical data is displayed in a solid blue line, while forecasted data should ideally be marked in a different style (e.g., dashed line, different color) to distinguish between observed and predicted values clearly.
 
-The analysis also tested various machine learning models to predict future stock prices and trends:
-
-- **Linear Regression**: Used to predict the stock's future prices based on past performance.
-- **Random Forest Regressor**: Implemented to capture non-linear relationships and improve prediction accuracy.
+This graph not only aids in visualizing past performance but also in projecting future trends, which are pivotal for strategic planning and decision-making by investors and financial analysts.
 
 ### Functions & Libraries Utilized 🔧
 
