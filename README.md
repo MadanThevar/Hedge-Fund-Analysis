@@ -150,9 +150,13 @@ A recent analysis was performed on an article discussing the iShares Core S&P 50
 
 <img width="1512" alt="Screenshot 2024-09-09 at 16 04 31" src="https://github.com/user-attachments/assets/f4d51a98-0ca6-4e9d-bb61-14e73fe9da1c">
 
+## Financial Metrics Fetching with yfinance for IVV ETF
 
+This section demonstrates how to retrieve key financial metrics for the iShares Core S&P 500 ETF (IVV) using the Python library `yfinance`. The metrics included are P/E Ratio, Earnings Per Share (EPS), Dividend Yield, and Revenue Growth, providing a snapshot of the ETF's financial health.
 
+### Sample Python Code
 
+<img width="660" alt="Screenshot 2024-09-09 at 16 12 23" src="https://github.com/user-attachments/assets/0282194a-da62-4775-8082-69cc163a68f6">
 
 
 ### Interpretation 📈
