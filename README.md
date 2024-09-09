@@ -148,6 +148,9 @@ A recent analysis was performed on an article discussing the iShares Core S&P 50
 - **Sentiment Polarity**: 0.18 (Slightly Positive)
 - **Sentiment Subjectivity**: 0.46 (Moderately Subjective)
 
+<img width="1512" alt="Screenshot 2024-09-09 at 16 04 31" src="https://github.com/user-attachments/assets/f4d51a98-0ca6-4e9d-bb61-14e73fe9da1c">
+
+
 
 
 
